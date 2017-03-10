@@ -19,18 +19,15 @@ public class DishServiceImpl implements DishService {
 	}
 
 	public List<Dish> findAll() {
-		// TODO Auto-generated method stub
-		return null;
+	 return  DishService.findAll();
 	}
 
 	public Dish findOne(int id) {
-		// TODO Auto-generated method stub
-		return null;
+		return DishService.findOne(id);
 	}
 
 	public void delete(int id) {
-		// TODO Auto-generated method stub
-		
+		DishService.delete(id);
 	}
 
 }
