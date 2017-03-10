@@ -4,8 +4,11 @@ import java.util.List;
 
 
 
-import ua.com.bonapetit.entity.Restaurant;
 
+import org.springframework.stereotype.Service;
+
+import ua.com.bonapetit.entity.Restaurant;
+@Service
 public interface RestaurantService {
 
 	

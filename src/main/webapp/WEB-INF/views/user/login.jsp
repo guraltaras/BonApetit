@@ -7,7 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<a href="/user/next">next</a>
 
 </body>
 </html>

@@ -3,11 +3,12 @@ package ua.com.bonapetit.serviceimpl;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import ua.com.bonapetit.dao.IngredientDao;
 import ua.com.bonapetit.entity.Ingredient;
 import ua.com.bonapetit.service.IngredientService;
-
+@Service
 public class IngredientServiceImpl   implements IngredientService{
 
 	

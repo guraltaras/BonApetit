@@ -4,8 +4,11 @@ import java.util.List;
 
 
 
-import ua.com.bonapetit.entity.Menu;
 
+import org.springframework.stereotype.Service;
+
+import ua.com.bonapetit.entity.Menu;
+@Service
 public interface MenuService {
 
 	void save(Menu menu);

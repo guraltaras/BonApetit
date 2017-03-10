@@ -4,8 +4,11 @@ import java.util.List;
 
 
 
-import ua.com.bonapetit.entity.Dish;
 
+import org.springframework.stereotype.Service;
+
+import ua.com.bonapetit.entity.Dish;
+@Service
 public interface DishService {
 
 	

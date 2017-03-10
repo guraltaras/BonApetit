@@ -3,11 +3,12 @@ package ua.com.bonapetit.serviceimpl;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import ua.com.bonapetit.dao.DishDao;
 import ua.com.bonapetit.entity.Dish;
 import ua.com.bonapetit.service.DishService;
-
+@Service
 public class DishServiceImpl implements DishService {
 
 	

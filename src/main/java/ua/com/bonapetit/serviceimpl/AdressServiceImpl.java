@@ -3,12 +3,13 @@ package ua.com.bonapetit.serviceimpl;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import ua.com.bonapetit.dao.AdressDao;
 import ua.com.bonapetit.entity.Adress;
 import ua.com.bonapetit.service.AdressService;
 
-
+@Service
 public class AdressServiceImpl   implements AdressService{
 
 	
