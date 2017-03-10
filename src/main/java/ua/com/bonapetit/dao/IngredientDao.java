@@ -9,4 +9,7 @@ import ua.com.bonapetit.entity.Ingredient;
 
 public interface IngredientDao    extends JpaRepository<Ingredient, Integer>,JpaSpecificationExecutor<Ingredient>{
 
+	
+	Ingredient Name(String name);
+	
 }
